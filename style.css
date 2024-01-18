@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:font-family "Open Sans", sans-serif;
+}
+
+.title {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3a3a3a;
+}
+
+
+
+
+/*This section is to make the buttons fancy */
+ul {
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+
+}
+
+ul li a {
+ padding: 0 20px;
+ text-decoration: none;
+ color:#3a3a3a ;
+ display: inline-block;
+
+}
+
+li a::after{
+    content: '';
+    display:block ;
+    height: 4px;
+    width: 0;
+    background: #c4c4f7;
+    transition:all .5s;
+}
+
+li a:hover::after{
+    width:100%
+}
+
+/* end of section */
+
+.top-bar {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+height: 200px;
+flex-shrink: 0;
+}
+
+.logo {
+   display: flex;
+   align-items: flex-start;
+    margin-left: 50px;
+
+}
+
+.top-list {
+    margin-right: 100px;
+    margin-left: auto;
+    display: flex;
+flex-shrink: 0;
+white-space: nowrap;
+   
+}
+
+.first-block {
+color:#3a3a3a;
+display: flex;
+justify-content:center;
+align-items:center;
+background-color:rgba(0, 0, 0, 0.097);
+padding: 50px;
+margin-top: 30px;
+}
+
+.first-block p {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 50px;
+    
+}
+
+.first-header {
+font-size: 20px;
+color: rgba(205, 0, 0, 0.82);
+
+}
+
+
+.block{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid #FF0000;
+    border-radius: 20%;
+}
+
+.blocks {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0px;
+   margin-top: 40px;
+   padding: 50px;
+}
+
+.middle-title {
+text-align: center;
+margin-top: 60px;
+margin-bottom: -50px;
+color: #3a3a3a;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 50px;
+    margin-top: -90px;
+
+    }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color:rgba(0, 0, 0, 0.095);
+    font-size: 16px
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 270px;
+    margin-top: -50px;
+}
+
+.highway {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 30px;
+}
+.desc {
+    font-size: 20px;
+    font-family:l;
+}
